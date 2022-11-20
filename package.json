@@ -1,0 +1,36 @@
+{
+  "name": "line-editor",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "storybook-dev": "ladle serve",
+    "visual-test": "playwright test",
+    "ladle": "ladle build",
+    "ladle-preview": "ladle preview -p 61000"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "konva": "^8.3.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-konva": "^18.2.3"
+  },
+  "devDependencies": {
+    "@ladle/react": "^2.4.3",
+    "@playwright/test": "^1.28.0",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@types/sync-fetch": "^0.4.0",
+    "@vitejs/plugin-react": "^2.2.0",
+    "canvas": "^2.9.3",
+    "sync-fetch": "^0.4.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3",
+    "vitest": "^0.25.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "line-editor--样式": {
+      "name": "样式",
+      "levels": [
+        "Line editor"
+      ],
+      "locStart": 6,
+      "locEnd": 29,
+      "filePath": "test/stories/line-editor.stories.tsx",
+      "meta": {}
+    }
+  }
+}
